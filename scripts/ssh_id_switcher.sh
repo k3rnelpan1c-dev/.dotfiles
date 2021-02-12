@@ -4,8 +4,6 @@
 #  I designed this script to easily switch between my ssh IDs.
 #  It depends on a certain naming schema of the ssh ID keys and OVERWRITES id_ed25519 & id_ed25519.pub
 
-set -e
-
 function __prompt() {
   echo "WARNING: About to overwrite id_ed25519 with ${1}_ed25519!"
   echo -n "Proceed? [y/n]: "

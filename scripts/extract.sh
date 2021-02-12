@@ -1,8 +1,5 @@
 #!/etc/bash
 
-set -e
-
-
 # # extract - archive extractor
 #
 # # usage: extract <file>
