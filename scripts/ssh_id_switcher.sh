@@ -21,6 +21,9 @@ function __overwrite() {
   fi
 }
 
+# # ssh_id_switcher - switches the active ssh ed25519 id
+#
+# # usage: ssh_id_switcher {k3|h1|dh}
 function ssh_id_switcher() {
   case "${1}" in
     k3)
