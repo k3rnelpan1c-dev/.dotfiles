@@ -1,0 +1,8 @@
+#!/etc/bash
+
+alias ll='ls -l'
+alias la='ls -la'
+
+if command -v bat &> /dev/null; then
+  alias cat='bat'
+fi
