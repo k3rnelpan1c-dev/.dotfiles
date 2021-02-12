@@ -1,0 +1,14 @@
+[[dotfiles]]
+= Dotfiles
+:toc: macro
+:toc-title:
+
+[#introduction]
+== Introduction
+A basic repository to collect Linux dot-files and useful custom scripts to include in the `bash` Terminal.
+
+
+== Motivation
+
+The typical motivation fo these kinds of repos, synchronise the .dotfiles across all systems.
+However, I will also use this repo to sync some useful scripts I want to use across systems. (Although I guess this is also things ppl do with these :wink:)
