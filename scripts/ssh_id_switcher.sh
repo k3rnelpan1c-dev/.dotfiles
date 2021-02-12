@@ -42,3 +42,5 @@ function ssh_id_switcher() {
   esac
   echo "Successfully changed ssh ID to ${1}_ed25519!"
 }
+
+alias ssh-id='ssh_id_switcher'
